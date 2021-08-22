@@ -6,10 +6,10 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: 1.116.90.93:8848
+        server-addr: 1.116.90.93:8848,1.116.90.93:8849,1.116.90.93:8850
         group: DEFAULT_GROUP
         file-extension: yaml
       discovery:
-        server-addr: 1.116.90.93:8848
+        server-addr: 1.116.90.93:8848,1.116.90.93:8849,1.116.90.93:8850
       profiles:
         active: dev
